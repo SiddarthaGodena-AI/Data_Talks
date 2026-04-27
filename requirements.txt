@@ -1,0 +1,11 @@
+Flask
+Werkzeug
+google-cloud-storage
+google-cloud-aiplatform
+google-cloud-language
+google-auth 
+google-auth-oauthlib 
+google-auth-httplib2
+reportlab
+google-auth
+vertexai

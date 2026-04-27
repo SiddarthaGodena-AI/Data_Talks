@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to Data</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>    
+</head>
+<body>
+    <h1>Talk to Data</h1>
+    <div class="container">
+        <!-- File Upload Form -->
+        <form id="uploadForm">
+            <h2>Upload File</h2>
+            <input type="file" id="fileInput" name="file">
+            <button type="submit">Upload</button>
+        </form>
+        <div id="uploadResult"></div>
+
+        <!-- Transcribe Button -->
+        <h2>Transcription</h2>
+        <button id="transcribeButton">Generate Transcript</button>
+        <div id="transcriptionResult"></div>
+
+        <!-- Sentiment Analysis -->
+        <h2>Analyze Sentiment</h2>
+        <button id="analyzeSentimentButton">Analyze Sentiment</button>
+        <div id="sentimentResult"></div>
+
+        <!-- Speaker Sentiment Analysis -->
+        <h2>Speaker Sentiment Analysis</h2>
+        <button id="speakerSentimentButton">Analyze Speaker Sentiment</button>
+        <pre id="speakerSentimentResult"></pre>
+
+
+        <!-- Extract Insights -->
+        <h2>Extract Insights</h2>
+        <button id="extractInsightsButton">Extract Insights</button>
+        <div id="insightsResult"></div>
+
+        <!-- Generate Summary -->
+        <h2>Generate Summary</h2>
+        <button id="generateSummaryButton">Generate Summary</button>
+        <div id="summaryResult"></div>
+
+        <!-- Generate Messages -->
+        <h2>Generate Messages</h2>
+        <button id="generateMessagesButton">Generate Messages</button>
+        <div id="messagesResult"></div>
+
+        <!-- Ask Question -->
+        <h2>Ask a Question</h2>
+        <input type="text" id="questionInput" placeholder="Type your question here">
+        <button id="askButton">Ask</button>
+        <div id="questionResult"></div>
+    </div>
+</body>
+</html>

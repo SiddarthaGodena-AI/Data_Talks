@@ -1,0 +1,124 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dcdcdc;
+  }
+  
+  /* Header Styling */
+  h1 {
+    text-align: center;
+    color: #002c6b;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  form, .ask-section {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+  }
+  
+  textarea, input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.2s ease;
+  }
+  
+  textarea:focus, input[type="text"]:focus, input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Additional Styling for Sections */
+  .ask-section {
+    padding: 20px;
+    background-color: #f7fbff;
+    border: 1px solid #d1e3f8;
+    border-radius: 8px;
+  }
+  
+  .ask-section h2 {
+    font-size: 1.5rem;
+    color: #004085;
+    margin-bottom: 15px;
+  }
+  
+  .ask-section p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* File Upload Styling */
+  .file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  input[type="file"] {
+    padding: 0;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
